@@ -2,20 +2,18 @@
   "schema_version": 2,
   "product_id": "RABBYTE_FM01",
   "channel": "stable",
-  "latest_version": "1.1.0",
+  "latest_version": "1.1.7",
   "minimum_version": "0.0.0",
   "hw_min": "2.2",
   "hw_max": "2.2",
-  "firmware_size": 328176,
-  "firmware_sha256": "ca0fac6fbdc51b9c7286df5dbdb02224522500b3d492b2ab7435aa2a0e633fbc",
+  "firmware_size": 358596,
+  "firmware_sha256": "15ba6daffa42265cba786cefb55cb1d021aee1d6954824a1d824c9637476fcdc",
   "signature_algorithm": "ecdsa-p256-sha256",
-  "signing_key_id": "0xD001",
-  "firmware_url": "https://github.com/rabbyte-lab/firmware/releases/download/v1.1.0-test/RABBYTE_FM01_App_1.1.0_signed.fwu",
+  "signing_key_id": "0xB696",
+  "firmware_url": "https://github.com/rabbyte-lab/firmware/releases/download/v1.1.7/RABBYTE_FM01_App_1.1.7_signed.fwu",
   "mandatory": false,
-  "release_date": "2026-08-10",
-  "release_notes": [
-    "首个支持签名验签的USB升级固件"
-  ],
-  "app_size": 328048,
-  "app_crc32": "45530e73"
+  "release_date": "2026-08-22",
+  "release_notes": [],
+  "app_size": 358468,
+  "app_crc32": "fa284a8c"
 }
