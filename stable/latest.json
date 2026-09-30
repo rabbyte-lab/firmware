@@ -2,18 +2,22 @@
   "schema_version": 2,
   "product_id": "RABBYTE_FM01",
   "channel": "stable",
-  "latest_version": "1.2.13",
+  "latest_version": "1.2.14",
   "minimum_version": "0.0.0",
   "hw_min": "2.2",
   "hw_max": "2.2",
-  "firmware_size": 370960,
-  "firmware_sha256": "80bd16e66b63e081f1fa9d918db23614ba2db566f1c267d00ea6e46464c5b4ae",
+  "firmware_size": 379440,
+  "firmware_sha256": "4cdeb839305bfef68c6a320b8c5b757f2697dff3fc9dcfb5a297c9a4fdc11e49",
   "signature_algorithm": "ecdsa-p256-sha256",
   "signing_key_id": "0xB696",
-  "firmware_url": "https://github.com/rabbyte-lab/firmware/releases/download/v1.2.13/RABBYTE_FM01_App_1.2.13_signed.fwu",
+  "firmware_url": "https://github.com/rabbyte-lab/firmware/releases/download/v1.2.14/RABBYTE_FM01_App_1.2.14_signed.fwu",
   "mandatory": false,
-  "release_date": "2026-09-11",
-  "release_notes": [],
-  "app_size": 370832,
-  "app_crc32": "6ba3b20b"
+  "release_date": "2026-09-30",
+  "release_notes": [
+    "优化显示布局与频率单位间距，统一页面状态显示。",
+    "增加屏幕锁定与长按解锁，锁屏期间测量及通信继续运行。",
+    "修复测量配置切换、校准恢复与过期结果处理。"
+  ],
+  "app_size": 379312,
+  "app_crc32": "b4bc89de"
 }
