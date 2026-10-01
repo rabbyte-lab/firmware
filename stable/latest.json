@@ -2,22 +2,22 @@
   "schema_version": 2,
   "product_id": "RABBYTE_FM01",
   "channel": "stable",
-  "latest_version": "1.2.14",
+  "latest_version": "1.2.15",
   "minimum_version": "0.0.0",
   "hw_min": "2.2",
   "hw_max": "2.2",
-  "firmware_size": 379440,
-  "firmware_sha256": "4cdeb839305bfef68c6a320b8c5b757f2697dff3fc9dcfb5a297c9a4fdc11e49",
+  "firmware_size": 379160,
+  "firmware_sha256": "2fff26d23a74ca591eb4ff6d0f668272ef43753e584a2222b6cbb6b75766a0f6",
   "signature_algorithm": "ecdsa-p256-sha256",
   "signing_key_id": "0xB696",
-  "firmware_url": "https://github.com/rabbyte-lab/firmware/releases/download/v1.2.14/RABBYTE_FM01_App_1.2.14_signed.fwu",
+  "firmware_url": "https://github.com/rabbyte-lab/firmware/releases/download/v1.2.15/RABBYTE_FC300_App_1.2.15_signed.fwu",
   "mandatory": false,
-  "release_date": "2026-09-30",
+  "release_date": "2026-10-01",
   "release_notes": [
-    "优化显示布局与频率单位间距，统一页面状态显示。",
-    "增加屏幕锁定与长按解锁，锁屏期间测量及通信继续运行。",
-    "修复测量配置切换、校准恢复与过期结果处理。"
+    "参考计时页的辅助评分改为测量质量，不再误称为参考稳定度。",
+    "无有效输入或外部参考失效时显示 --；取消参考就绪预测，保留预热计时。",
+    "保留 V1.2.14 的测量恢复、锁屏解锁和频率单位间距修复。"
   ],
-  "app_size": 379312,
-  "app_crc32": "b4bc89de"
+  "app_size": 379032,
+  "app_crc32": "923ba4c6"
 }
