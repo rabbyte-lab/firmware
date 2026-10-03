@@ -2,22 +2,18 @@
   "schema_version": 2,
   "product_id": "RABBYTE_FM01",
   "channel": "stable",
-  "latest_version": "1.2.15",
+  "latest_version": "1.2.17",
   "minimum_version": "0.0.0",
   "hw_min": "2.2",
   "hw_max": "2.2",
-  "firmware_size": 379160,
-  "firmware_sha256": "2fff26d23a74ca591eb4ff6d0f668272ef43753e584a2222b6cbb6b75766a0f6",
+  "firmware_size": 379148,
+  "firmware_sha256": "db8a46303331f5d985918371d8579425a0ccb6f98a9a7bed7d6be20263969393",
   "signature_algorithm": "ecdsa-p256-sha256",
   "signing_key_id": "0xB696",
-  "firmware_url": "https://github.com/rabbyte-lab/firmware/releases/download/v1.2.15/RABBYTE_FC300_App_1.2.15_signed.fwu",
+  "firmware_url": "https://github.com/rabbyte-lab/firmware/releases/download/v1.2.17/RABBYTE_FC300_App_1.2.17_signed.fwu",
   "mandatory": false,
-  "release_date": "2026-10-01",
-  "release_notes": [
-    "参考计时页的辅助评分改为测量质量，不再误称为参考稳定度。",
-    "无有效输入或外部参考失效时显示 --；取消参考就绪预测，保留预热计时。",
-    "保留 V1.2.14 的测量恢复、锁屏解锁和频率单位间距修复。"
-  ],
-  "app_size": 379032,
-  "app_crc32": "923ba4c6"
+  "release_date": "2026-10-03",
+  "release_notes": [],
+  "app_size": 379020,
+  "app_crc32": "378330e2"
 }
